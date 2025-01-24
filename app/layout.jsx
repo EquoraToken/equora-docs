@@ -10,10 +10,10 @@ export const metadata = {
 }
  
 
-const navbar = <Navbar logo={<b>Nextra</b>} projectLink="https://github.com/EquoraToken/equora-docs" />
+const navbar = <Navbar logo={<b>Equora</b>} projectLink="https://github.com/EquoraToken/equora-docs" />
 const footer = (
   <Footer className="flex-col items-center md:items-start">
-    MIT {new Date().getFullYear()} © Nextra.
+     © {new Date().getFullYear()} EquoraToken.
   </Footer>
 )
  
@@ -30,14 +30,13 @@ export default async function RootLayout({ children }) {
       <Head
         backgroundColor={{
           dark: 'rgb(15, 23, 42)',
-          light: 'rgb(254, 252, 232)'
+          light: 'white'
         }}
         color={{
           hue: { dark: 120, light: 0 },
           saturation: { dark: 100, light: 100 }
         }}
       >
-        {/* Your additional tags should be passed as `children` of `<Head>` element */}
       </Head>
       <body>
         <Layout
