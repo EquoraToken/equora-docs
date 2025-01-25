@@ -2,10 +2,7 @@
  
 export default {
   index: 'Home',
-    contact: 'Contact Us',
-  about: {
-    title: 'About Us'
-}
+  tokendeployment: 'Token Deployment',
 }
  
 // Custom component for italicized text
