@@ -1,11 +1,14 @@
-
- 
 export default {
   index: 'Home',
   tokendeployment: 'Token Deployment',
-}
- 
-// Custom component for italicized text
-function Italic({ children, ...props }) {
-  return <i {...props}>{children}</i>
+  charity: 'Charity Info',
+  presaleinfo: 'Presale Info',
+  etherscanlink: {
+    title: 'Etherscan Token Page',
+    href: 'https://etherscan.io/token/0x29D35F07F361EACeb0bea4bD70BC9B5D7e9CB431'
+  },
+  dxsalelink: {
+    title: 'DxSale',
+    href: 'https://dxsale.app/'
+  }
 }
